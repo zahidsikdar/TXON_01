@@ -18,8 +18,7 @@
 body {
     margin: 0;
     padding: 0;
-    
-    background-color: var(--bg);
+    background-color: #FFF8BC;
     font-family: 'Times New Roman', Times, serif;
     color: var(--main);
     
@@ -40,11 +39,10 @@ header {
     padding: 40px 0;
 }
 .container{
-    /* width: calc(var(--size)* var(--ratio));
-    margin: 0 auto; */
+   
     max-width: 1200px;
-    margin: auto;
-    /* background: #f2f2f2; */
+   margin: auto;
+  
     overflow: auto;
 }
 
@@ -99,6 +97,7 @@ nav a:hover{
    
     font-weight: bold;
     padding-bottom: 60px;
+    padding-top: 20px;
 }
 
 .intro-title{
@@ -112,7 +111,7 @@ nav a:hover{
 .intro p{
     word-wrap: break-word;
     font-size: 25px;
-    
+    padding-bottom: 20px;
     margin-top: 10px;
 }
 
@@ -135,15 +134,18 @@ nav a:hover{
 
 
 .gallery {
-    margin: 10px;
+    margin: 25px;
+    /* margin-right: 10px; */
     border: 1px solid #ccc;
     float: right;
     width: auto;
+    filter: drop-shadow(10px 5px 2px #3D3C42);
     
 }
 
 .gallery img {
-    width: 350px;
+    
+    width: 345px;
     height: 400px;
     
 }
@@ -153,7 +155,7 @@ nav a:hover{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    background: #000;
+    background: rgb(97, 63, 63);
     color: aliceblue;
 
 }
@@ -167,7 +169,8 @@ footer{
 }
 
 .top {
-    background-color: #ccc;
+    background-color: #FEDB39;
+    width: 100%;
     
 }
   
